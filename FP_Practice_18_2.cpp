@@ -24,6 +24,35 @@ int main()
 	cin >> point.x >> point.y;
 	calcDistanceBetweenPoints(point);
 
+    cout << "Операции с дробями: ";
+
+    Fraction fraction1 = { 3, 4 };
+    Fraction fraction2 = { 1, 2 };
+
+    // Сложение дробей
+    Fraction sum = addFractions(fraction1, fraction2);
+    cout << "Сумма: ";
+    printFraction(sum);
+    cout << endl;
+
+    // Вычитание дробей
+    Fraction difference = subtractFractions(fraction1, fraction2);
+    cout << "Разность: ";
+    printFraction(difference);
+    cout << endl;
+
+    // Умножение дробей
+    Fraction product = multiplyFractions(fraction1, fraction2);
+    cout << "Произведение: ";
+    printFraction(product);
+    cout << endl;
+
+    // Деление дробей
+    Fraction quotient = divideFractions(fraction1, fraction2);
+    cout << "Частное: ";
+    printFraction(quotient);
+    cout << endl;
+
 	return 0;
 }
 
