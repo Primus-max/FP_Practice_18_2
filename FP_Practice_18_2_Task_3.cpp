@@ -42,7 +42,6 @@ Fraction multiplyFractions(const Fraction& a, const Fraction& b) {
     return result;
 }
 
-// Функция для деления одной дроби на другую
 Fraction divideFractions(const Fraction& a, const Fraction& b) {
     Fraction result;
     result.numerator = a.numerator * b.denominator;
