@@ -16,6 +16,14 @@ int main()
 	cout << "Укажите координаты положения прямоугольника" << endl;
 	cin >> rect.x >> rect.y;
 	printRectangle(rect);
+
+	cout << endl;
+
+	Point point;
+	cout << "Укажите две точки для расчёта расстояния между ними, x и y" << endl;
+	cin >> point.x >> point.y;
+	calcDistanceBetweenPoints(point);
+
 	return 0;
 }
 

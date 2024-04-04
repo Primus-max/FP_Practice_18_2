@@ -10,5 +10,10 @@ struct CustomRectangle {
 
 void printRectangle(CustomRectangle& rect);
 
-void setRectangleByCoordinates(CustomRectangle& rect);
+struct  Point{
+    int x;
+    int y;
+};
+
+void calcDistanceBetweenPoints(Point& point);
 #endif 

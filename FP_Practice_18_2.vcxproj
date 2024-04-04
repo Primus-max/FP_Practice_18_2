@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="FP_Practice_18_2.cpp" />
     <ClCompile Include="FP_Practice_18_2_Task_1.cpp" />
+    <ClCompile Include="FP_Practice_18_2_Task_2.cpp" />
     <ClCompile Include="message_utils.cpp" />
   </ItemGroup>
   <ItemGroup>
